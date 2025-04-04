@@ -5,10 +5,10 @@ Wiki Pages
 {% endblock %}
 
 {% block content %}
-<h3>Pages contained in this Wiki</h3>
+<h3>Read about our Famous Cats on Skis Here!</h3>
 <ul>
     {% for page in all_pages %}
-    <li><a href="{{ url_for('pages', name=page) }}">{{page}}</a></li>
+    <li><a href="{{ url_for('pages', name=page) }}">{{page}}</a> <p></p></li>
     {% endfor %}
 </ul>
 

@@ -2,20 +2,67 @@
 
 html {
     margin: 25px;
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
     font-family: verdana;
     font-size: 20px;
 }
 
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: bolder;
+    color: rgb(37, 100, 181);
+    text-align: center;
+}
+
+h4{
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(27, 62, 107);
+    text-align: center;
+}
+
+h5{
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h6{
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 p {
     margin-top: 10px;
     margin-left: 15px;
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
 }
+
+p2{
+    margin-top: 10px;
+    margin-left: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    height: 800px;
+    align-content: center;
+    max-width: 100%;
+}
+
+img2{
+    height: 50px;
+    max-width: 100%;
+}
+
